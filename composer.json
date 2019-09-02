@@ -1,0 +1,22 @@
+{
+    "name": "yorch/feenicia",
+    "description": "Unofficial PHP Feenicia SDK",
+    "keywords": ["payments"],
+    "homepage": "https://github.com/yorch81/MyDb",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jorge Alberto Ponce Turrubiates",
+            "email": "the.yorch@gmail.com",
+            "homepage": "http://yorch.tk"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4.0",
+        "apache/log4php": "2.3.0"
+    },
+    "autoload": {
+        "files": ["SDK.class.php", "Payment.class.php"]
+    }
+}
